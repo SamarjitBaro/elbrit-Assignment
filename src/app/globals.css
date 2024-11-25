@@ -1,21 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Changa:wght@200..800&family=Concert+One&family=Dosis:wght@200..800&family=Francois+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+  @media screen and (max-width: 768px) {
+    .ingredients {
+      margin-top: 10px;
+    }
+  }
+  
+  /* For screens between 769px and 1023px */
+  @media screen and (min-width: 766px) and (max-width: 1023px) {
+    .ingredients {
+      margin-top: 700px;
+      /* position: static; */
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    
+   .main{
+    /* display: flex; */
+    flex-direction: column;
+   }
+   .main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+   }
+   .image{
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    padding-top: 50px;
+   }
+   .twodot{
+    display: none;
+   }
+ 
+  
+  
+   
+   
+   
+  }
+  /* @media screen and (max-width:1111){
+    .hello{
+      height: 4000px;
+    }
+  } */
+  @media screen and (min-width:1024px){
+    
+    .thirddiv{
+    padding-top: 70px;
+    }
+    .twodot{
+        bottom:27%;
+        left: 14.5%;
+        
+       }
+       .levitate{
+        /* bottom:8%; */
+        top: 80%;
+        width: 77vw;
+        position: static;
+       
+       }
+      
+       .hero{
+        padding: 0  32px;
+       }
+       .levitate{
+        position: absolute;
+       }
+       /* .footer{
+        position: absolute;
+        margin-top: ;
+        width: screen;
+       } */
+
+       .ingredients{
+        margin-top: 300px;
+        position: absolute;
+        /* width: 95%; */
+       }
+       .content{
+        position: absolute;
+       }
+       .thumb{
+        display: block;
+       }
+     
+      
+      
+      
+    
+    
+  }
+  
+
+  @media screen and (min-width:1700px){
+    .main-container {
+        max-width: 1700px;
+        width: 100%;
+        margin: 0 auto;
+      }
+      .levitate{
+        /* bottom:-40%; */
+        top: 100%;
+        /* width: 77vw; */
+        width: 100%;
+        position: static;
+       }
+       .ingredients{
+        margin-top: 450px;
+        position: absolute;
+        width: 96%;
+       }
+       
+      
+       
+       
+  }
