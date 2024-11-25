@@ -4,7 +4,7 @@ import { Ingredients } from "./Ingredients";
 export const Main2 = () => {
   const items = [
     {
-      image1: "/icon1.png",
+      image1: "/images/icon1.png",
       header: "Clinically Studied",
       paragraph: (
         <>
@@ -14,7 +14,7 @@ export const Main2 = () => {
       ),
     },
     {
-      image1: "/icon2.png",
+      image1: "/images/icon2.png",
       header: "Vegetarian Friendly",
       paragraph: (
         <>
@@ -24,7 +24,7 @@ export const Main2 = () => {
       ),
     },
     {
-      image1: "/icon3.png",
+      image1: "/images/icon3.png",
       header: "Made In India",
       paragraph: (
         <>
@@ -34,7 +34,7 @@ export const Main2 = () => {
       ),
     },
     {
-      image1: "/icon4.png",
+      image1: "/images/icon4.png",
       header: "Free Shipping",
       paragraph: (
         <>
@@ -43,7 +43,7 @@ export const Main2 = () => {
       ),
     },
     {
-      image1: "/icon5.png",
+      image1: "/images/icon5.png",
       header: "No Risk",
       paragraph: (
         <>
@@ -53,7 +53,7 @@ export const Main2 = () => {
       ),
     },
     {
-      image1: "/icon6.png",
+      image1: "/images/icon6.png",
       header: "GMO Free",
       paragraph: (
         <>

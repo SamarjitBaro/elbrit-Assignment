@@ -5,17 +5,17 @@ import { Footer } from "./Footer";
 export const Ingredients = () => {
   const items = [
     {
-      image: "/bg1.png",
+      image: "/images/bg1.png",
       header: "Vitamin C",
       paragraph: <>Vitamin C as ascorbic acid</>,
     },
     {
-      image: "/bg2.png",
+      image: "/images/bg2.png",
       header: "Vitamin B3",
       paragraph: <>Niacin for healthy gut and skin</>,
     },
     {
-      image: "/bg3.png",
+      image: "/images/bg3.png",
       header: "Magnesium",
       paragraph: (
         <>
@@ -25,7 +25,7 @@ export const Ingredients = () => {
       ),
     },
     {
-      image: "/bg4.png",
+      image: "/images/bg4.png",
       header: "Hyaluronic Acid",
       paragraph: (
         <>
@@ -35,7 +35,7 @@ export const Ingredients = () => {
       ),
     },
     {
-      image: "/bg5.png",
+      image: "/images/bg5.png",
       header: "Lactobacillus",
       paragraph: (
         <>
@@ -100,7 +100,7 @@ export const Ingredients = () => {
               width={175}
               height={175}
               quality={100}
-              src={"/thumb.png"}
+              src={"/images/thumb.png"}
             />
           </div>
         </div>

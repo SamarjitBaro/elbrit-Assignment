@@ -3,30 +3,30 @@ import Image from "next/image";
 export const Main3 = () => {
   const items = [
     {
-      image: "/img1-3.png",
+      image: "/images/img1-3.png",
     },
     {
-      image: "/img2-4.png",
+      image: "/images/img2-4.png",
     },
     {
-      image: "/img1-3.png",
+      image: "/images/img1-3.png",
     },
     {
-      image: "/img2-4.png",
+      image: "/images/img2-4.png",
     },
   ];
   const items2 = [
     {
-      image: "/img5.png",
+      image: "/images/img5.png",
     },
     {
-      image: "/img6-8.png",
+      image: "/images/img6-8.png",
     },
     {
-      image: "/img7.png",
+      image: "/images/img7.png",
     },
     {
-      image: "/img6-8.png",
+      image: "/images/img6-8.png",
     },
   ];
   return (

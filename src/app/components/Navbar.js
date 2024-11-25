@@ -5,7 +5,7 @@ export const Navbar = () => {
     <div>
       <nav className="h-[60px] w-[100%] flex items-center px-[14vw]">
         <Image
-          src="/image.png"
+          src="/images/image.png"
           alt="Logo"
           width={313.26}
           height={60}

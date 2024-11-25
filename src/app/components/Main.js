@@ -5,7 +5,7 @@ import { Ingredients } from "./Ingredients";
 export const Main = () => {
   const items = [
     {
-      image: "/lg1.svg",
+      image: "/images/lg1.svg",
       header: "Vitamins",
       paragraph: (
         <>
@@ -15,7 +15,7 @@ export const Main = () => {
       ),
     },
     {
-      image: "/lg2.png",
+      image: "/images/lg2.png",
       header: "Weight Loss",
       paragraph: (
         <>
@@ -25,7 +25,7 @@ export const Main = () => {
       ),
     },
     {
-      image: "/lg3.png",
+      image: "/images/lg3.png",
       header: "Functional Foods",
       paragraph: (
         <>
@@ -70,7 +70,7 @@ export const Main = () => {
                     <div className="image">
                       <div className="bg-[#ffe9b5] w-[280px] rounded-tl-[30%]   md:mt-auto  rounded-br-[30%] md:mr-10 h-[280px] relative  ">
                         <Image
-                          src="/mainimg.png"
+                          src="/images/mainimg.png"
                           alt="Med-Image"
                           width={2003.26}
                           height={1000}

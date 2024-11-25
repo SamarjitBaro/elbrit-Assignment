@@ -4,17 +4,17 @@ import React from "react";
 export const Footer = () => {
   const items = [
     {
-      image: "/icn1.png",
+      image: "/images/icn1.png",
       tag: "Phone Number",
       details: "+974 3118 1843",
     },
     {
-      image: "/icn2.png",
+      image: "/images/icn2.png",
       tag: "Email Address",
       details: "Elbrithcqhr@gmail.com",
     },
     {
-      image: "/icn3.png",
+      image: "/images/icn3.png",
       tag: "Office Location",
       details: " Ambassador Street, Zone 61,",
     },
@@ -53,7 +53,7 @@ export const Footer = () => {
           <div className="flex justify-center mb-8 md:justify-start">
             <div className="flex flex-wrap  md:justify-between md:h-[70px] h-[85px]  w-[64%]">
               <Image
-                src="/image.png"
+                src="/images/image.png"
                 alt="Logo"
                 width={313.26}
                 height={60}
@@ -72,7 +72,7 @@ export const Footer = () => {
           <div className="flex items-center mt-10 justify-center md:justify-start">
             <div>
               <Image
-                src="/Group.png"
+                src="/images/Group.png"
                 alt="Logo"
                 width={313.26}
                 height={60}
