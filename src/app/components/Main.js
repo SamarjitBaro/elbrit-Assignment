@@ -70,13 +70,13 @@ export const Main = () => {
                     <div className="image">
                       <div className="bg-[#ffe9b5] w-[280px] rounded-tl-[30%]   md:mt-auto  rounded-br-[30%] md:mr-10 h-[280px] relative  ">
                         <Image
-                          src="/images/mainimg.png"
+                          src="/images/mainimg.avif"
                           alt="Med-Image"
-                          width={2003.26}
-                          height={1000}
-                          quality={70}
+                          width={500.26}
+                          height={500}
+                          quality={100}
                           priority={true}
-                          className="md:h-[300px] md:bottom-[16%] scale-[1.1] lg:right-4 md:right-2  w-auto absolute z-40 "
+                          className="md:h-[300px] md:bottom-[16%] scale-[1.1] lg:right-4 md:right-2  w-auto absolute  "
                         />
                       </div>
                     </div>
