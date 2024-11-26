@@ -76,7 +76,7 @@ export const Main = () => {
                           height={500}
                           quality={100}
                           priority={true}
-                          className="md:h-[300px] md:bottom-[16%] scale-[1.1] lg:right-4 md:right-2  w-auto absolute  "
+                          className="h-[300px] bottom-[16%] scale-[1.1] lg:right-4 md:right-2  w-auto absolute  "
                         />
                       </div>
                     </div>
