@@ -28,7 +28,7 @@ export const Footer = () => {
               return (
                 <div
                   key={index}
-                  className=" flex  bg-[#215D72] rounded md:rounded-lg md:h-[5vw] md:w-[22vw] w-[200px]  h-[36px]  md:justify-evenly  px-5 md:px-0 items-center"
+                  className=" flex  bg-[#215D72] rounded md:rounded-lg md:h-[5vw] md:w-[22vw] w-[280px]  h-[56px]  md:justify-evenly  px-5 md:px-0 items-center"
                 >
                   <Image
                     alt="icons"
@@ -36,13 +36,13 @@ export const Footer = () => {
                     width={100}
                     height={100}
                     quality={100}
-                    className="h-[3.2vw]  w-[3.2vw]"
+                    className=" h-7 md:h-[3.2vw] w-7  md:w-[3.2vw]"
                   />
                   <div className="flex-col md:ml-0 ml-7">
-                    <h2 className="text-[#FFFFFF]  md:text-[1vw] text-[9px] font-normal">
+                    <h2 className="text-[#FFFFFF]  md:text-[1vw] text-[12px] font-normal">
                       {item.tag}
                     </h2>
-                    <h2 className="text-[#FFFFFF] md:text-[1vw] text-[7.7px]  font-medium">
+                    <h2 className="text-[#FFFFFF] md:text-[1vw] text-[14px]  font-medium">
                       {item.details}
                     </h2>
                   </div>
@@ -61,7 +61,7 @@ export const Footer = () => {
                 className="h-[4.6vw] w-[250px]"
               />
               <div className=" w-[300px]">
-                <p className="text-[#FFFF]  md:text-[0.8vw] text-[8.7px]  leading-1 md:leading-4 font-normal">
+                <p className="text-[#FFFF]  md:text-[0.8vw] text-[12.3px] mt-5 md:mt-0 leading-1 md:leading-4 font-normal">
                   Your health, physical and emotional well-being is important to
                   us. We are always by your side and have made it even easier
                   for you to find the necessary vitamins.
@@ -80,7 +80,7 @@ export const Footer = () => {
                 className="md:h-[0.9vw] h-[7px] w-[7px] md:w-[10px]"
               />
             </div>
-            <p className="text-[#FFFF] ml-3 md:text-[0.8vw] text-[7.8px]  leading-1 md:leading-5 font-normal">
+            <p className="text-[#FFFF] ml-3 md:text-[0.8vw] text-[10.8px]  mt-5 md:mt-0  leading-1 md:leading-5 font-normal">
               Elbrit Life Sciences Private Limited. C20, BKC, G Block, Mumbai
               400051
             </p>
