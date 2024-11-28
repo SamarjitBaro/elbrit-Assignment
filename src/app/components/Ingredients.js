@@ -71,13 +71,20 @@ export const Ingredients = () => {
               <div
                 key={index}
                 className="flex  ml-1  items-center w-[300px] justify-center rounded-xl h-[220px] bg-cover bg-no-repeat relative"
-                style={{
-                  backgroundImage: `url(${item.image})`,
-                  backgroundSize: "contain", // Ensures the image fits inside the div
-                  backgroundPosition: "center", // Centers the image inside the div
-                  backgroundRepeat: "no-repeat", // Prevents the image from repeating
-                }}
+                // style={{
+                //   // backgroundImage: `url(${item.image})`,
+                //   backgroundSize: "contain", // Ensures the image fits inside the div
+                //   backgroundPosition: "center", // Centers the image inside the div
+                //   backgroundRepeat: "no-repeat", // Prevents the image from repeating
+                // }}
               >
+                <Image
+                  src={item.image}
+                  alt={item.header || "Image"} // Provide a meaningful alt text
+                  layout="fill" // Makes the image fill its parent container
+                  objectFit="contain" // Ensures the image fits inside the div
+                  className="rounded-xl" // Add rounded corners
+                />
                 <div className="absolute top-3 px-2 md:py-4  py-10 left-4">
                   <h1 className="md:text-[22px] text-[4vw] mb-2 font-semibold text-[#18414E]">
                     {item.header}
