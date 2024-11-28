@@ -79,13 +79,13 @@ export const Ingredients = () => {
                 }}
               >
                 <div className="absolute top-3 px-2 md:py-4  py-10 left-4">
-                  <h1 className="md:text-[22px] text-[4vw] md:mb-2 font-semibold text-[#18414E]">
+                  <h1 className="md:text-[22px] text-[4vw] mb-2 font-semibold text-[#18414E]">
                     {item.header}
                   </h1>
                   <p className="text-[14px]  leading-4 text-[#727272] font-medium">
                     {item.paragraph}
                   </p>
-                  <h3 className="text-[12px] md:mt-20 mt-2 font-semibold underline decoration-[#18414E] text-[#18414E]">
+                  <h3 className="text-[12px] md:mt-20 mt-12 font-semibold underline decoration-[#18414E] text-[#18414E]">
                     SEE MORE
                   </h3>
                 </div>
